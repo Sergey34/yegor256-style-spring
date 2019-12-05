@@ -33,7 +33,7 @@ public class RestUser implements MyUserDetails {
 
     @GetMapping(path = {"/", "/{id}"})
     public MyUserDetails getUserInfo(@PathVariable(required = false) String id) {
-        return user.get(id);
+        return id == null ? this : user.get(id);
     }
 
     @GetMapping("/_save_default")

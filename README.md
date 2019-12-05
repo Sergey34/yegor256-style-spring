@@ -8,4 +8,4 @@
 
 Все объекты будут личностями, но, как в современных реалиях принято, личность должна страдать
 
-картинка с саранчей  
+![title](https://github.com/Sergey34/yegor256-style-spring/blob/master/sarancha.jpg)
